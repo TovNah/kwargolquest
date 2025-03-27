@@ -1,0 +1,1008 @@
+:: StoryTitle
+Kwargol Quest
+
+
+:: StoryData
+{
+  "ifid": "64684AFD-A769-4BF6-A338-E7FCA4B099F5",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "tag-colors": {
+    "tag2": "red",
+    "tag1": "orange"
+  },
+  "zoom": 1
+}
+
+
+:: BattleScene1 {"position":"875,1375","size":"100,100"}
+ <<nobr>>
+<div class="question-text">
+<p>To strike a decisive blow against Kwargol, you must recall the sacred wisdom of the Secret Order of CRM. Only those who understand why we seek aid from our brethren can weaken the demon’s grip!</p>
+<strong>Why do members of the Secret Order most often call upon each other for help?</strong>
+   <p><<link[[To break the curse of a mischievous bug that defies all logic!->Wrong3]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+     <p><<link [[To translate the cryptic prophecies of the customer sages!->Correct3]]>><<script>>setup.damageKwargol();<</script>><</link>></p>
+        <p> <<link[[To seek guidance on the grand decree that binds our quest!->Wrong3]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+           <p> <<link[[To battle the relentless specter of lost time!->Correct3]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+</div>
+ <</nobr>>
+
+
+:: Bonus9 {"position":"800,3275","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>You embrace the wisdom of work-life balance!</h2> 
+  <p>
+You take a deep breath and allow yourself to step away from the relentless email storm. The weight of unread messages fades, and your mind clears.
+  </p>
+<p>
+For the first time in ages, you feel… rested. Your mental health is restored, and you regain strength for the battles ahead.
+</p>
+       <p>[[Continue your journey, refreshed and ready!->Question10]]</p>
+</div>
+ <</nobr>>
+
+
+:: Correct10 {"position":"1025,3650","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>You have conquered the final trial!</h2> 
+  <p>
+With wisdom and foresight, you see the truth—the Identity Verification Service was never just a tool. It is a fortress against chaos, ensuring only those with rightful claims may pass, strengthening the realm with trust and clarity.
+  </p>
+<p>
+Kwargol lets out a final, agonized roar before crumbling into the void. You have achieved victory! The sprint goals are secured! But beware… in the next cycle, a new battle will rise again.
+</p>
+       <p>[[Claim your victory and prepare for the next adventure!->cliffhanger]]</p>
+</div>
+ <</nobr>>
+
+
+:: Correct3 {"position":"775,1625","size":"100,100"}
+<<nobr>>
+    <div class="question-text">
+    <h2>You have chosen wisely!</h2>
+    <p>As you speak the sacred truth, the runes of the Great Datacenter glow with stability. The Council of Engineers nods in approval, and the chaotic energies of Kwargol weaken.</p>
+    <p>With a secure backup and seamless deployments, the kingdom’s services shall endure—even in the face of disaster! Kwargol howls in frustration as his grip on the digital realm weakens! You have struck a powerful blow against him. </p>
+    <p> [[The battle continues…->Question4]]</p>
+</div>
+<</nobr>>
+
+
+:: Correct4 {"position":"700,1925","size":"100,100"}
+<div class="question-text">
+  <h2>A Wise Choice!</h2> 
+  You have recalled the ancient truth—the true method of testing involves a lone hero, armed only with a laptop, with the company cheering him on. Though humble, this method represents the unwavering spirit and unity of the team in the face of adversity.
+ Though unorthodox, this approach is effective in rallying the company’s strength and ensuring no bug escapes unnoticed! Kwargol is rattled, his forces weakening as the team pushes forward.
+  The battle continues with renewed hope! You have struck a blow against Kwargol’s power, and your unity brings you closer to victory!
+       <p> [[Regroup and strategize—it's time to take a new approach!->Question5]]</p>
+</div>
+
+
+:: Correct5 {"position":"1050,2250","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2> A Brilliant Insight!</h2> 
+  <p>You have unlocked the true path—Regular knowledge sharing sessions, where the team unites in wisdom and strategy. As each member contributes their knowledge, the power of collaboration forms a mighty force, driving back Kwargol’s dark influence.
+With every shared lesson, the CRM team grows stronger, united in purpose and vision. Kwargol falters, unable to maintain control as your collective wisdom strengthens your cause.</p>
+  <p>Victory is within reach! Keep sharing your knowledge, and together, you will defeat the demon once and for all.</p>
+       <p> [[Regroup and strategize—it's time to take a new approach!->Question6]]</p>
+</div>
+ <</nobr>>
+
+
+:: Correct6 {"position":"1025,2475","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>The wisdom of the ancients flows through you!</h2> 
+  <p>Your understanding of the Part-time Mailer pierces through the fog of uncertainty. Kwargol howls in frustration as his power wanes, the chaos in his wake beginning to unravel. The path forward is clearer now, but the battle is far from over.</p>
+
+       <p> [[Press forward, for greater challenges await!->EmailCalamity]]</p>
+</div>
+ <</nobr>>
+
+
+:: Correct7 {"position":"950,2725","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>You found the flaw in Kwargol’s spell!</h2> 
+  <p>With a sharp mind and keen analysis, you discover that Kwargol’s own power betrayed him—by focusing too much energy on a single cage bar, he made it unstable. The massive email attachment overloads the enchantment, creating a crack in the magical prison. With a swift strike, you shatter the weakened bars and break free!</p>
+<p>Kwargol recoils in frustration as his spell collapses. You have gained the upper hand… but the battle is not over yet!</p>
+       <p> [[Press forward and strike while Kwargol is vulnerable!->Question8]]</p>
+</div>
+ <</nobr>>
+
+
+:: Correct8 {"position":"1000,2975","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>Your spell pierces through Kwargol’s defenses!</h2> 
+  <p>
+With a deep breath, you invoke the power of the Virtual User, bypassing Kwargol’s formidable UserSession Protection. A crack appears in his magical barrier, then another—until the entire shield shatters into nothingness!
+  </p>
+<p>
+Kwargol staggers back, momentarily vulnerable. This is your chance to strike!
+</p>
+       <p>[[Seize the moment and press the attack!->Question9]]</p>
+</div>
+ <</nobr>>
+
+
+:: Correct9 {"position":"1075,3250","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>You wield the Part-time Mailer with wisdom!</h2> 
+  <p>
+By setting clear expectations, you bring balance to the realm of communication. No longer will your colleagues be lost in uncertainty, wondering when you will respond. Clarity reigns, and harmony is restored!
+  </p>
+<p>
+Kwargol grumbles, weakened by your mastery of time and priorities. The battle is turning in your favor!
+</p>
+       <p>[[Press forward with confidence!->Question10]]</p>
+</div>
+ <</nobr>>
+
+
+:: CorrectAnswer1 {"position":"750,625","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>Well done, brave adventurer!</h2> 
+  <p> You have answered true. The MoveID allows one to sign documents digitally, binding their word in the magical ether.</p>
+  <p> Kwargol recoils from your wisdom, and his strength wanes before you. He loses health as you press on!</p>
+<p> [[The next trial awaits...->Question2]]</p>
+</div>
+ <</nobr>>
+
+
+
+
+:: CorrectAnswer2 {"position":"675,875","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>A Stroke of Wisdom!</h2> 
+  <p>The air hums with energy as your answer resonates with truth. The ancient forces acknowledge your insight, and Kwargol recoils, his power waning before your growing strength!</p>
+       <p> [[Regain Your Strength and Face the Trial Again->Operational]]</p>
+</div>
+ <</nobr>>
+
+
+:: EmailCalamity {"position":"825,2600","size":"100,100"}
+<<nobr>>
+    <div class="question-text">
+        <p>Kwargol unleashes a devastating spell: Email Calamity! A surge of dark energy crackles through the air as Kwargol imprisons you in a cage woven from pure email chaos—attachments stack endlessly, unread messages swirl like a storm, and auto-replies bounce in an infinite loop. But every spell has a flaw, and only a keen mind can uncover it.
+
+</p>
+        <strong>Where does the weakness in Kwargol’s magic lie?</strong>
+        <p><<link[[The spell overloaded the entire system, leaving no weaknesses->Wrong7]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        <p><<link [[Kwargol focused too much power into a single cage bar, making it unstable due to an enormous email attachment->Correct7]]>><<script>>setup.damageKwargol();<</script>><</link>></p>
+        <p> <<link[[The enchantment is self-sustaining—breaking it requires an even stronger spell->Wrong7]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+        <p> <<link[[The magic feed was interrupted by an out-of-office reply loop->Wrong7]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+    </div>
+<</nobr>>
+
+
+:: EnchantedAnswer1 {"position":"1200,650","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>Alas, your answer is mistaken!</h2> 
+<p>As you utter your answer, a mystical energy swirls around you. The heavens do not part, nor do the vaults of forbidden knowledge open. Instead, a mischievous force takes hold—your mind fogs, your steps falter.</p>
+
+<strong>You have been enchanted!</strong>
+
+<p>Kwargol grins wickedly, feeding off your confusion. His dark power grows stronger as your vision blurs. Shake off the spell, adventurer, and try again before it consumes you!</p>
+       <p> [[Take a deep breath... Try again->Question2]]</p>
+</div>
+ <</nobr>>
+
+
+
+:: GameOver {"position":"900,125","size":"100,100"}
+<div class="question-text">
+  <h2>❌ You have fallen in battle! ❌  </h2> <p>You fought bravely, but the weight of battle—and perhaps the creeping shadows of mental exhaustion—proved too great this time. The chaos overwhelmed you, draining not just your strength but your focus and resilience.</p><p>Even the mightiest heroes must rest. Beware the toll of endless struggle, for burnout is a foe as relentless as Kwargol himself. But take heart! With each attempt, you grow stronger. Learn, adapt, and rise again. The story is far from over, and the next round is another chance to conquer both Kwargol and the forces of exhaustion.</p>
+       <p> [[Try Again->Start]]</p>
+</div>
+
+
+:: NextSprint1 {"position":"1200,1375","size":"100,100"}
+ <<nobr>>
+ <div class="question-text">
+<p>To defeat Kwargol, you must combine the knowledge of the ancient orders that once stood against him. These guilds forged the mighty weapon MoveID, a tool of great power, crafted through their united wisdom.</p>
+<strong>Which ancient orders took part in the creation of MoveID?</strong>
+   <p><<link[[The full fellowship—masters of commerce, connection, and movement, under the guidance of CRM!->Correct3]]>><<script>>setup.damageKwargol();<</script>><</link>></p>
+     <p><<link [[Only the chosen warriors of Move and CRM!->Wrong3]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        <p> <<link[[A lone guild, standing against the tides of change!->Wrong3]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+           <p> <<link[[A strong alliance, but missing a vital force!->Wrong3]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+</div>
+ <</nobr>>
+
+
+:: Operational {"position":"875,1075","size":"100,100"}
+ <<nobr>>
+<div class="question-text">
+<p>The vile demon Kwargol raises his clawed hands, chanting in a forgotten tongue. A surge of chaos ripples through the air as he casts the Spell of the Footrest!  
+From the depths of the code abyss, an Operational Bug emerges, its tendrils of broken logic threatening to consume your sprint!  </p>
+<strong>You must make a saving throw to determine your fate. Roll the sacred 20-sided die:</strong>
+
+ <p> [[Roll die->RollDie]]</p>
+    </div>
+     <</nobr>>
+
+
+:: PassageHeader {"position":"875,375","size":"100,100"}
+<div id="header"><label for="kwargolpb"> $khealthLable:</label>
+ <progress id="kwargolpb" @value="$khealth" max="50" class="red-progress-bar"></progress>
+<label for="playerpb"> $phealthLable:</label>
+<progress  id="playerpb" @value="$phealth" max="50" class="red-progress-bar"></progress> 
+<p><label id="hitLabel"  style="padding: 10px; text-color: red; color: white; border-radius: 5px;">$hitLabel</label></p></div>
+<<script>>
+setup.handleHeader()
+<</script>>
+
+
+:: Question10 {"position":"800,3525","size":"100,100"}
+<<nobr>>
+    <div class="question-text">
+        <p>
+You have fought bravely, adventurer. This is the last question standing between you and victory over Kwargol. Choose wisely, for the fate of the realm—and your sprint goals—hangs in the balance!
+</p>
+<p>
+In the grand halls of the CRM Order, a powerful artifact was forged—the Identity Verification Service. But what was its true purpose? Why was it brought into existence?
+</p>
+        <strong>Choose the reason behind its creation:</strong>
+        
+        <p><<link[[To carve a single pillar of truth, ensuring only the worthy may pass->Correct10]]>><<script>>setup.damageKwargol();<</script>><</link>></p>
+        
+        <p><<link [[To shatter the old monolith and build a temple of microservices, no matter the cost->Wrong10]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        
+        <p> <<link[[Because the scribes of CRM sought distraction from their endless toil->Wrong10]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+        
+        <p> <<link[[Because an ancient prophecy foretold its arrival, and who dares question fate? ->Wrong10]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+    </div>
+<</nobr>>
+
+
+:: Question2 {"position":"850,750","size":"100,100"}
+ <<nobr>>
+ <div class="question-text">
+ <p>As you stand before the great stone tablet of knowledge, strange symbols dance across its surface—corrupt glyphs of a forgotten age. The air hums with power as you ponder the question that will shape the future of the realm. </p>
+<strong>Why is the great migration to UTF-8 so vital?</strong>
+   <p><<link[[������������->Unravel2]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+     <p><<link [[The legendary MariaDB driver may now be wielded in the halls of Production->CorrectAnswer2]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+        <p> <<link[[The realm’s ancient scripts may be purified, erasing foul ‘hacks’ from our sacred code->WrongAnswer2]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+           <p> <<link[[All of the above, for the migration shall restore balance to the kingdom.->WrongAnswer2]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+</div>
+ <</nobr>>
+
+
+:: Question4 {"position":"850,1825","size":"100,100"}
+ <<nobr>><div class="question-text">
+<p>The time has come to test the Datacenter Switch—a perilous and vital task. Yet, only those who understand the sacred process of testing can help defeat Kwargol.</p>
+<strong>How does team CRM currently perform testing during the datacenter switch?</strong>
+   <p><<link[[A lone hero, armed with only a laptop, while the rest of the company offers their spirited cheers!->Correct4]]>><<script>>setup.damageKwargol();<</script>><</link>></p>
+     <p><<link [[The mighty David, following a time-honored playbook, performing each step with precision over a long weekend, and a box of cigars for company.->Wrong4]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        <p> <<link[[Each member tests their favorite service—then it’s a battle royale to see who emerges victorious!->Wrong4]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+           <p> <<link[[Vladimir, the master of efficiency, presses a button, enjoys a fine dinner, and the testing is done before dessert!->Wrong4]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+</div>
+ <</nobr>>
+
+
+:: Question5 {"position":"850,2075","size":"100,100"}
+<<nobr>>
+    <div class="question-text">
+        <p>In the ever-evolving lands of CRM, the key to success lies in how the team collaborates and works together. To defeat Kwargol, you must understand what truly strengthens the team’s efforts.</p>
+        <strong>What is a great addition to the workflow within our CRM team?</strong>
+        <p><<link[[Focus solely on individual tasks, for teamwork only weakens the true power of one!->Wrong5]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        <p><<link [[Fewer meetings, more productivity—less chatter, more action!->Wrong5]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        <p> <<link[[Seal off distractions with a giant ‘Do Not Disturb’ sign—work undisturbed!->Trap]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+        <p> <<link[[Regular knowledge sharing sessions, so all may unite and work on the same grand epic!->Correct5]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+    </div>
+<</nobr>>
+
+
+:: Question6 {"position":"850,2325","size":"100,100"}
+<<nobr>>
+    <div class="question-text">
+        <p>To weaken Kwargol, you must uncover the secret of the ancient mailers!
+Long ago, the sages of CRM crafted powerful tools to manage time and absence. But only those who understand their true purpose can wield them effectively.</p>
+        <strong>What is the greatest difference between the old "Vakantie-Mailer" and the new "Part-time Mailer"?</strong>
+        <p><<link[[The "Part-time Mailer" only sends emails on Mondays->Wrong6]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        <p><<link [[The "Holiday Mailer" only sends out-of-office messages on weekends->Wrong6]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        <p> <<link[["Part-time Mailer" considers fixed days off->Correct6]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+        <p> <<link[["Part-time Mailer" automatically sends vacation tips->Wrong6]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+    </div>
+<</nobr>>
+
+
+:: Question8 {"position":"825,2850","size":"100,100"}
+<<nobr>>
+    <div class="question-text">
+        <p>Kwargol has surrounded himself with an impenetrable shield of UserSession magic!
+A powerful enchantment pulses around him, blocking your every attempt to strike. The mystical UserSession Protection ensures that no ordinary request can reach him. But every spell has a counter—you must uncover the secret to bypass his defenses!
+
+</p>
+        <strong>Which incantation will break through Kwargol’s barrier?</strong>
+        
+        <p><<link[[Invoke the power of a Virtual User->Correct8]]>><<script>>setup.damageKwargol();<</script>><</link>></p>
+        
+        <p><<link [[Call upon the ancient Legacy Token->Wrong8]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        
+        <p> <<link[[Use the hidden pathways of an Internal Endpoint->Wrong8]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+        
+        <p> <<link[[Accept defeat—there is no way past this enchantment->GameOver]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+    </div>
+<</nobr>>
+
+
+:: Question9 {"position":"800,3125","size":"100,100"}
+<<nobr>>
+    <div class="question-text">
+        <p>
+        Deep in the archives of the CRM Order, a mystical tool exists—the Part-time Mailer. When used wisely, it brings clarity to communication and ensures balance in the realm of emails. But what is its true purpose?
+
+</p>
+        <strong>Why should one wield the power of the Part-time Mailer?</strong>
+        
+        <p><<link[[So your inbox magically clears itself every day->Wrong9]]>><<script>>setup.damagePlayer();<</script>><</link>></p>
+        
+        <p><<link [[So you can ignore emails guilt-free->Bonus9]]>><<script>>setup.healPlayer();<</script>><</link>></p>
+        
+        <p> <<link[[Because it makes your emails sound more professional->Wrong9]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+        
+        <p> <<link[[So colleagues know when to expect a reply ->Correct9]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+    </div>
+<</nobr>>
+
+
+:: RollDie {"position":"875,1250","size":"100,100"}
+ <<nobr>>
+<div class="question-text">
+<<set _roll = random(1, 20)>>
+
+<<if _roll >= 15>>
+<h2>Success!</h2>
+     <p>With a keen eye and swift fingers, you weave through the broken code and vanquish the bug before it wreaks havoc. The project is saved, and Kwargol snarls in frustration!</p>
+        <p><<link[[Continue the fight ->BattleScene1]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+    
+    <<elseif _roll >= 8>>
+    <h2> Partial Success.</h2>
+   <p> You manage to contain the bug, but not without cost. The issue is postponed until the next sprint, and you suffer minor setbacks.  </p>
+
+       <p><<link [[Press on ->NextSprint1]]>><<script>>setup.damagePlayer();setup.damageKwargol();<</script>><</link>></p>
+  
+<<else>>
+<h2>Failure!</h2>
+    <p>The bug is too powerful to fix in time. You quickly redirect it to another team, buying yourself some time, but at a cost to morale. Kwargol cackles as your allies struggle under the burden.</p>
+
+
+   <p><<link     [[Continue the fight ->WarRoom]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+<</if>>
+
+
+    </div>
+     <</nobr>>
+
+
+:: Start {"position":"650,425","size":"100,100"}
+ <<nobr>><<set Config.passages.nobr to true>>
+ <<set $khealth to 50>>
+<<set $phealth to 50>>
+<<set $hitLabel to "">>
+<<set $showHeader to false>>
+<<set $khealthLable to "Kwargol health">>
+<<set $phealthLable to "Player menthal health">>
+<<cacheaudio "bgm_space" "https://tovnah.github.io/kwargolquest/music.mp3">>
+<<audio "bgm_space" volume 0.5 play>>
+<<audio "bgm_space" loop play>>
+<div class="question-text">
+<h2>Welcome to the Kwargol Quest!</h2>
+  <p>As you step into the shadowed realm of Sprintoria, the ground trembles beneath you. A monstrous figure looms ahead, its twisted form pulsing with raw energy. This is Kwargol, the devourer of productivity, the beast that thrives on Quarter Goals left unfinished.</p>
+ 
+ <p>Its many eyes glare at you, each one representing an unresolved task. Its massive claws, forged from forgotten deadlines, slash through the air. The beast lets out a deafening roar, shaking your very resolve.</p>
+
+ <p>“You dare challenge me?” Kwargol bellows. “You who have left tasks uncompleted? Who have underestimated the weight of a quarter’s work? Your backlog shall be your grave!”</p>
+ <p>[[Start battle->Start battle]]</p>
+</div>
+<</nobr>>
+
+
+
+ 
+
+
+
+:: Start battle {"position":"875,500","size":"100,100"}
+ <<nobr>><<set $showHeader to true>>
+<div class="question-text">
+  <strong>The ancient seal of MoveID: The Identity Verification Service. What secret power does the MoveID bestow upon the bearer?</strong>
+  
+   <p>  <<link[[To wander the realms of the earth unbound, no need for papers or visas->WrongAnswer1]]>><<script>>setup.damagePlayer()<</script>><</link>> </p>
+     <p>      <<link[[To forge one's name in the ethereal realms by digitally signing sacred scrolls->CorrectAnswer1]]>><<script>>setup.damageKwargol()<</script>><</link>>     </p>
+        <p>         <<link[[To gain the favor of the gods and enter the forbidden vaults of Area 51->EnchantedAnswer1]]>><<script>>setup.damagePlayer()<</script>><</link>>        </p>
+           <p>            <<link[[To acquire lands without contest, bypassing the ancient bidding rites->WrongAnswer1]]>><<script>>setup.damagePlayer()<</script>><</link>>           </p>
+</div>
+ <</nobr>>
+
+
+
+
+
+:: Trap {"position":"1700,1800","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>A Dangerous Trap! </h2> 
+<p>You thought you knew the way, for this task felt familiar. But Kwargol has set a trap, luring you into a false sense of security. You believed it was the same as before, but now you see—the cycle is endless, a perpetual battle against the dark forces.
+You’ve done this too many times, and yet, the struggle never ends. Kwargol's grip tightens as you fall deeper into his trap.</p>
+ <p>Be wary, adventurer—each false victory only brings you closer to defeat. You must find a new path to escape the endless cycle!</p>
+         
+      <<if _roll >= 15>>
+        <p><<link[[Break the cycle - seek a new strategy to overcome the endless battle. ->WarRoom]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+    
+    <<elseif _roll >= 8>>
+          <p><<link [[Break the cycle—seek a new strategy to overcome the endless battle ->NextSprint1]]>><<script>>setup.damagePlayer();setup.damageKwargol();<</script>><</link>></p>
+  <<else>>
+   <p><<link     [[Break the cycle—seek a new strategy to overcome the endless battle. ->BattleScene1]]>><<script>>setup.damagePlayer()<</script>><</link>></p>
+<</if>>
+</div>
+ <</nobr>>
+
+
+:: Unravel2 {"position":"875,900","size":"100,100"}
+ <<nobr>>
+ <div class="question-text">
+  <h2>Alas, your answer is mistaken!</h2> 
+<p>As you gaze upon the strange symbols, your mind strains to decipher their meaning. The runes twist and shimmer, slipping through your understanding like whispers of a forgotten tongue. A sudden jolt of arcane backlash surges through you—your thoughts scatter, and a sharp pain courses through your body.</p>
+
+<strong>You have failed to unravel the mystery and suffered damage!</strong>
+
+<p>Kwargol's laughter echoes through the void, feeding on your struggle. Steady yourself, adventurer—regain your focus and try again!</p>
+
+        <p> [[Steady Yourself and Try Again->Operational]]</p>
+</div>
+ <</nobr>>
+
+
+:: Victory {"position":"650,125","size":"100,100"}
+<div class="question-text">
+  <h2>🎉 Victory! 🎉 </h2> 
+<p>With a final strike, Kwargol crumbles into the void, and peace is restored! Through wit, skill, and perseverance, you have overcome the challenges and achieved the sacred Sprint Goals.</p>
+<p>But beware, hero—this is an endless battle. When the next round begins, Kwargol will rise once more, and the struggle shall begin anew. Prepare yourself, for the cycle of battle never truly ends…</p>
+       <p> [[Play Again->Start]]</p>
+</div>
+
+
+:: WarRoom {"position":"500,1400","size":"100,100"}
+ <<nobr>>
+ <div class="question-text">
+<p>The ancient servers hum with power as the Council of Engineers prepares to perform the Great Datacenter Switching Ritual. But only those who understand its true purpose may proceed!</p>
+<p>Choose wisely, for a wrong answer may empower Kwargol!</p>
+
+<strong>What is the datacenter switching trying to achieve? </strong>
+
+
+   <p><<link[[We must abandon the old, for it is a crumbling ruin!->Wrong3]]>><<script>>setup.damagePlayer(); setup.healKwargol();<</script>><</link>></p>
+     <p><<link [[With many strongholds, we shall rule them all!->Wrong3]]>><<script>>setup.damagePlayer(); setup.healKwargol();<</script>><</link>></p>
+        <p> <<link[[A guardian must stand ready should the first fortress fall.->Correct3]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+           <p> <<link[[Let no battle halt our progress, for the flow of deployment must never cease!->Correct3]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+</div>
+ <</nobr>>
+
+
+:: Wrong10 {"position":"575,3650","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>The final mistake—Kwargol grows stronger!</h2> 
+  <p>
+The power of confusion engulfs the battlefield! With the truth obscured, gateways crumble, false identities slip through, and the realm is cast into doubt.
+  </p>
+<p>
+You fall, but the story is not over. The battle continues, and next time, you will be stronger, wiser, and ready to win!
+</p>
+       <p>[[Rise again and face the challenge once more!->cliffhanger]]</p>
+</div>
+ <</nobr>>
+
+
+:: Wrong3 {"position":"975,1625","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>A Grave Misstep!</h2> 
+  <p>As you utter your flawed reasoning, the servers flicker, and a surge of instability ripples through the datacenter. Kwargol cackles, feeding on the chaos you have unleashed!</p>
+ <p>The demon’s strength surges as broken deployments and service outages fuel his dark power.
+ Kwargol regains his strength! His health restores, and the path ahead grows more treacherous. </p>
+       <p> [[Steel your mind, adventurer, and choose your next move wisely…->Question4]]</p>
+</div>
+ <</nobr>>
+
+
+:: Wrong4 {"position":"975,1950","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>A Grave Mistake!</h2> 
+ <p>Your choice has led you astray. The chaotic methods of testing have only fueled Kwargol’s power. The lone hero may have the spirit, but without the proper support and structure, this approach leaves many gaps for the dark forces to slip through.</p>
+<p>Kwargol’s strength grows stronger as errors go unnoticed and testing falters. The team may be united in spirit, but without order, victory slips further from your grasp.
+ Choose your next actions wisely, adventurer, for Kwargol is not yet defeated!</p>
+       <p> [[Press on with courage—perhaps there is still hope in the chaos.->Question5]]</p>
+</div>
+ <</nobr>>
+
+
+:: Wrong5 {"position":"650,2250","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>A Costly Misstep!</h2> 
+<p>Your choice has led you astray. Focusing on individual tasks or isolating oneself from the team only strengthens Kwargol. Disconnected efforts breed chaos, and without unity, the team falters.</p>
+<p>Kwargol feeds on the disarray—his strength grows as your team’s collaboration weakens.
+ The path ahead is darker, and the fight grows harder. It’s time to reconsider your approach, adventurer, before it’s too late.</p>
+       <p> [[Press on with courage—perhaps there is still hope in the chaos.->Question6]]</p>
+</div>
+ <</nobr>>
+
+
+:: Wrong6 {"position":"675,2475","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>Your confusion strengthens Kwargol’s dark influence!</h2> 
+<p>A sinister laugh echoes through the battlefield as Kwargol feeds on your misunderstanding. The forces of disorder grow stronger, and your path becomes shrouded in doubt. But do not despair—learn from this mistake and strike back before it’s too late!</p>
+
+       <p> [[Regain your focus and try again!->EmailCalamity]]</p>
+</div>
+ <</nobr>>
+
+
+:: Wrong7 {"position":"675,2725","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>The cage tightens around you!</h2> 
+<p>Your miscalculation strengthens the spell instead of breaking it. The walls of email attachments close in tighter, the auto-replies multiply, and your inbox grows ever more cluttered. Kwargol grins as you struggle, feeding on your confusion.</p>
+<p>But hope is not lost. Look deeper into the chaos—the answer is there, waiting to be uncovered.</p>
+       <p> [[Regain your focus and try again before the inbox consumes you!->Question8]]</p>
+</div>
+ <</nobr>>
+
+
+:: Wrong8 {"position":"650,2975","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>
+ Kwargol's shield absorbs your magic!
+  </h2> 
+<p>
+You speak the incantation, but the spell fizzles out against the UserSession Protection, leaving Kwargol completely unharmed. His eyes gleam with amusement as his defenses grow even stronger.
+</p>
+<p>
+This is not the end—think carefully, study his magic, and try again. The right spell exists!
+</p>
+       <p> [[Recalibrate your magic and attempt another counter-spell!->Question9]]</p>
+</div>
+ <</nobr>>
+
+
+:: Wrong9 {"position":"525,3250","size":"100,100"}
+ <<nobr>><div class="question-text">
+  <h2>Kwargol feasts on your confusion!</h2> 
+  <p>
+Your misunderstanding strengthens the chaos of the inbox. Messages pile up, expectations blur, and frustration spreads like wildfire. Kwargol cackles, growing stronger from the disarray!
+  </p>
+<p>
+But the battle is not lost. Focus, rethink, and try again!
+</p>
+       <p>[[Regain control and make a wiser choice!->Question10]]</p>
+</div>
+ <</nobr>>
+
+
+:: WrongAnswer1 {"position":"975,625","size":"100,100"}
+ <<nobr>>
+<div class="question-text">
+  <h2>Alas, your answer is mistaken!</h2> 
+  <p> The wicked Kwargol cackles as your misstep fuels his dark power. Shadowy tendrils lash out, striking you with the weight of your doubt. Your strength falters, but steel your resolve, brave adventurer—rise again, learn from your mistake, and face him once more!</p>
+
+       <p> [[Take a deep breath... Try again->Question2]]</p>
+</div>
+ <</nobr>>
+
+
+:: WrongAnswer2 {"position":"1175,875","size":"100,100"}
+ <<nobr>>
+ <div class="question-text">
+  <h2>A Misstep in the Trial!</h2> 
+  <p>As you speak your answer, the air grows heavy with an eerie silence. You strain to comprehend the symbols before you, but they twist and shift, evading your understanding. A pulse of chaotic energy surges from the runes, striking you with an unseen force!</p>
+  <strong>  You failed to decipher the ancient knowledge and suffered damage!</strong>
+<p>Kwargol grins, his form swelling with power as your mistake fuels his dark essence. Grit your teeth, steady your mind, and prepare to face the challenge once more!</p>
+       <p> [[Steady Yourself and Try Again->Operational]]</p>
+</div>
+ <</nobr>>
+
+
+:: cliffhanger {"position":"800,3775","size":"100,100"}
+<<nobr>>
+    <div class="question-text">
+        <p>
+Just when you thought the battle was won, Kwargol lets out a chilling laugh. His form flickers like a dying ember, but with the last of his strength, he raises his hands to the sky.
+
+Dark clouds gather. The heavens shudder, and then— disaster falls upon you like a meteor of chaos!
+</p>
+<p>
+All the servers crumble under the weight of his final curse. There is only one hope left—to pray to the gods and seek their guidance.
+</p>
+        <strong>Which divine force will you call upon to reveal the truth behind this catastrophe?</strong>
+        
+        <p><<link[[Email, always email ->Victory]]>><<script>>setup.damageKwargol();<</script>><</link>></p>
+        
+        <p><<link [[PR with an error—The trickster’s deception->Victory]]>><<script>>setup.damageKwargol();<</script>><</link>></p>
+        
+        <p> <<link[[Log4j—The relentless scribe, filling the hard drive with despair->Victory]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+        
+        <p> <<link[[Thor’s cruelty—A storm of misconfigured endpoints ->Victory]]>><<script>>setup.damageKwargol()<</script>><</link>></p>
+    </div>
+<</nobr>>
+
+
+:: StoryScript [script]
+window.setup = window.setup || {};
+//State.variables.khealth
+
+setup.maxDamage = 10;
+setup.criticlChance = 5;
+setup.kwargolMaxHealth = 50;
+setup.playerMaxHealth = 50;
+
+$(document).on("click", "a.link-internal", function (event) {
+    var passageName = $(this).attr("data-passage");
+    console.log("Player clicked on a link to: " + passageName);
+
+    // Perform any interception logic here
+    if (setup.checkGameOver()) {
+        event.preventDefault(); // Stop the normal navigation
+    } else {
+        // Engine.play(passageName); // Manually navigate if needed
+    }
+});
+
+$(document).on(":passageend", function () {
+    // Check if the passage is a "finished" passage
+    let finishedPassages = setup.isCurrentPassageStart() || setup.isCurrentPassageFinal(); // Add your passage names here
+console.log("is finishedPassages: " + finishedPassages);
+    if (finishedPassages) {
+        console.log("hide header" );
+        $("#header").hide(); // Hide header for these passages
+    } else {
+        console.log("show header" );
+        $("#header").show(); // Show header for all other passages
+    }
+});
+setup.getDamage = function() {
+    var value =(Math.floor(Math.random() * setup.maxDamage) + 1);
+    console.log('damage = ' + value)
+    return value;
+};
+
+setup.criticalKoof = function() {
+    var value = (Math.floor(Math.random() * setup.maxDamage) + 1) === setup.criticlChance ? 2 : 1;
+    console.log('koof = ' + value)
+    return value;
+};
+
+setup.handleHeader = function () {
+    let finishedPassages = setup.isCurrentPassageStart() || setup.isCurrentPassageFinal(); // Add your passage names here
+    console.log("is finishedPassages: " + finishedPassages);
+    if (finishedPassages) {
+        console.log("hide header" );
+        $("#header").hide(); // Hide header for these passages
+    } else {
+        console.log("show header" );
+        $("#header").show(); // Show header for all other passages
+    }
+}
+
+setup.damageKwargol = function() {
+    var crit = setup.criticalKoof()
+    var value =setup.getDamage() * crit;
+    State.variables.khealth = State.variables.khealth - value;
+    console.log('damage kwargol = ' + value);
+    setup.handleDamage(true, value, crit > 1, false)
+}
+
+setup.healKwargol = function() {
+    var crit = setup.criticalKoof()
+    var value =setup.getDamage() * crit;
+    State.variables.khealth =  Math.min((State.variables.khealth + value), setup.kwargolMaxHealth);
+    console.log('heal kwargol = ' + value);
+    setup.handleDamage(true, value, crit > 1, true)
+}
+
+setup.healPlayer = function() {
+    var crit = setup.criticalKoof()
+    var value =setup.getDamage() * crit;
+    State.variables.phealth = Math.min((State.variables.phealth + value), setup.playerMaxHealth);
+    console.log('heal player = ' + value);
+    setup.handleDamage(false, value, crit > 1, true)
+}
+
+setup.damagePlayer = function() {
+    var crit = setup.criticalKoof()
+    var value =setup.getDamage();
+    State.variables.phealth = State.variables.phealth - value;
+    console.log('damage player = ' + value);
+    setup.handleDamage(false, value, crit > 1, false)
+}
+
+// Example of how to trigger the pop-up with damage to Kwargol or the player
+setup.handleDamage = function (isKwargol, points, isCritical, isHeal) {
+    var text = "";
+
+    // If it's critical damage, add the red cross symbol
+    if (isCritical && !isHeal) {
+        text += "❌CRITICAL! ";
+    }
+
+    // If the target is Kwargol
+    if (isKwargol) {
+        text += "Kwargol" + (isHeal ? " heals" : " takes");
+    } else {
+        text += "You" + (isHeal ? " heal" : " take");
+    }
+
+    // Append the amount of points (HP or damage)
+    text += " " + points + (isHeal ? " HP" : " damage");
+
+    // Store the text in State.variables.hitLabel (this is how you display it in the game)
+    State.variables.hitLabel = text;
+
+    // Hide the label after 3 seconds
+    setTimeout(function() {
+        State.variables.hitLabel = "";
+    }, 3000); // 3000 ms = 3 seconds
+
+    // Check if the game is over
+    setup.checkGameOver();
+}
+
+setup.isCurrentPassageStart =function () {
+    return State.passage == "Start";
+}
+setup.isCurrentPassageFinal =function () {
+    console.log("passage is final");
+    return State.passage == "GameOver" || State.passage == "Victory";
+}
+
+setup.checkGameOver = function () {
+    if(setup.isCurrentPassageFinal()) {
+        return false;
+    }
+    if (State.variables.phealth <= 0) {
+        console.log("player is defeated");
+        // If player health reaches 0, go to Game Over passage
+        // setTimeout(function () {
+        //     // Show the modal
+        //     Engine.play("GameOver");
+        // }, 1000)
+        Engine.play("GameOver");
+        return true;
+
+    } else if (State.variables.khealth <= 0) {
+        console.log("kwargol is defeated");
+        // If Kwargol is defeated, go to Victory passage
+        // setTimeout(function () {
+        //     // Show the modal
+        //     Engine.play("Victory");
+        // }, 1000)
+        Engine.play("Victory");
+        return true;
+    }
+};
+
+
+// Function to show the pop-up modal with a question and answers
+setup.showQuestionModal =function (question, answers) {
+    // Set the question and answers in the modal
+    document.getElementById("questionText").textContent = question;
+    let options = document.getElementById("answerOptions");
+    options.innerHTML = "";  // Clear previous answers
+
+    // Add answer buttons
+    answers.forEach((answer, index) => {
+        let btn = document.createElement("button");
+        btn.classList.add("answer-btn");
+        btn.textContent = answer.text;
+        btn.addEventListener('click', function() {
+            setup.handleAnswer(answer.id);
+        }, false);
+        // btn.onclick = function() {
+        //     setup.handleAnswer(answer.id);
+        // };
+        options.appendChild(btn);
+    });
+
+    setTimeout(function () {
+        // Show the modal
+        document.getElementById("questionModal").style.display = "block";
+    }, 1000)
+}
+
+// Close the modal
+setup.closeModal = function () {
+    document.getElementById("questionModal").style.display = "none";
+}
+
+// Function to handle the player's answer
+setup.handleAnswer= function (answerId) {
+    setup.closeModal();
+
+    // Define the logic for each answer
+    if (answerId === 1) {
+        // Wrong answer example
+        alert("Wrong answer! Kwargol's power grows.");
+        kwargolHealth -= 10;
+        playerHealth -= 5;
+    } else if (answerId === 2) {
+        // Correct answer example
+        alert("Correct answer! You weaken Kwargol.");
+        kwargolHealth -= 20;
+    } else if (answerId === 3) {
+        // Neutral answer example
+        alert("Neutral answer. No effect.");
+        playerHealth -= 5;
+    } else if (answerId === 4) {
+        // Harmful answer example
+        alert("A devastating mistake! You suffer greatly.");
+        playerHealth -= 15;
+    }
+
+    // Update health statuses (you can also update a health bar here)
+    console.log("Player Health: " + playerHealth);
+    console.log("Kwargol Health: " + kwargolHealth);
+}
+
+setup.runEncounter = function () {
+    debugger;
+// Example of triggering the question modal with a question and answers
+    setup.showQuestionModal(
+        "Why is the migration to UTF-8 so vital?",
+        [
+            { id: 1, text: "To gain the favor of the gods and enter the forbidden vaults of Area 51" },
+            { id: 2, text: "A lot of 'hacks' can be removed from CRM and services" },
+            { id: 3, text: "All of the above" },
+            { id: 4, text: "To summon the great demon Kwargol" }
+        ]
+    );
+}
+
+:: StoryStylesheet [stylesheet]
+
+  /* Start screen styles */
+  h2 {
+    color: #2E86C1;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: 40px;
+  }
+
+  .instructions {
+    font-size: 1.2em;
+    color: #333;
+  }
+
+  .start-button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+
+  .start-button:hover {
+    background-color: #45a049;
+  }
+
+.red-progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;  /* Track color */
+    border-radius: 5px;
+    box-shadow: none;
+    appearance: none;
+  }
+
+  .red-progress-bar::-webkit-progress-bar {
+    background-color: #ccc;
+    border-radius: 5px;
+  }
+
+  .red-progress-bar::-webkit-progress-value {
+    background-color: red;  /* Red color for the fill */
+    border-radius: 5px;
+  }
+
+  .red-progress-bar::-moz-progress-bar {
+    background-color: red;  /* Red color for the fill */
+    border-radius: 5px;
+  }
+
+
+
+
+
+body {
+    font-family: "Garamond", serif;
+    background-color: #2a2a2a;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* Styling for question text */
+  .question-text {
+    font-size: 24px;
+    color: #ffcc33;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    background-color: #3e3e3e;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Styling for answer buttons */
+  .answer-button {
+    font-size: 18px;
+    background-color: #5a3e36;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px 0;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    width: 60%;
+    transition: all 0.3s ease;
+  }
+
+  .answer-button:hover {
+    background-color: #7e5334;
+    box-shadow: 0px 0px 15px rgba(255, 204, 51, 0.8);
+  }
+
+  /* Styling for answers (highlight correct/incorrect) */
+  .correct-answer {
+    background-color: #4CAF50;
+  }
+
+  .incorrect-answer {
+    background-color: #f44336;
+  }
+
+
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
